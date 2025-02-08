@@ -41,7 +41,7 @@ Commands
 - `Remote`: Connect to a remote system.
 - `Iam`: Show the current user.
 - `cd`: Change the current directory.
-- `pwd`: Show the current working directory.
+- `cwd`: Show the current working directory.
 
 Methods
 
