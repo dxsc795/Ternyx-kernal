@@ -1,0 +1,255 @@
+Here is a documentation for the TernyxShell class:
+
+TernyxShell Class Documentation
+
+Overview
+
+The TernyxShell class is a simulated system command-line interface. It provides a range of commands for managing files, directories, and users.
+
+Commands
+
+*File Management*
+- `cdir`: Create a new directory.
+- `crdir`: Change the current directory.
+- `rf`: Remove a file.
+- `Renaf`: Rename a file.
+- `Renad`: Rename a directory.
+- `cp`: Copy a file.
+- `mv`: Move a file.
+- `rmdir`: Remove a directory.
+
+*User Management*
+- `Adduser`: Add a new user.
+- `Deluser`: Delete a user.
+- `Passwd`: Change a user's password.
+- `Sau`: Switch to a different user account.
+- `Shuesr`: Show user permissions.
+
+*System Information*
+- `Sysinfo`: Show system information.
+- `Uptime`: Show system uptime.
+- `Meminfo`: Show memory information.
+- `Cpuinfo`: Show CPU information.
+
+*Miscellaneous*
+- `omit`: Open files and directories.
+- `lf`: List files.
+- `pr`: Print a message.
+- `Kill`: Kill a process.
+- `Bg`: Run a process in the background.
+- `Fg`: Run a process in the foreground.
+- `Remote`: Connect to a remote system.
+- `Iam`: Show the current user.
+- `cd`: Change the current directory.
+- `pwd`: Show the current working directory.
+
+Methods
+
+*`__init__`*
+Initializes the TernyxShell object.
+
+*`omit`*
+Opens files and directories.
+
+*`cdir`*
+Creates a new directory.
+
+*`crdir`*
+Changes the current directory.
+
+*`rf`*
+Removes a file.
+
+*`Renaf`*
+Renames a file.
+
+*`Renad`*
+Renames a directory.
+
+*`lf`*
+Lists files.
+
+*`cp`*
+Copies a file.
+
+*`mv`*
+Moves a file.
+
+*`rmdir`*
+Removes a directory.
+
+*`Adduser`*
+Adds a new user.
+
+*`Deluser`*
+Deletes a user.
+
+*`Passwd`*
+Changes a user's password.
+
+*`Sau`*
+Switches to a different user account.
+
+*`Shuesr`*
+Shows user permissions.
+
+*`Sysinfo`*
+Shows system information.
+
+*`Uptime`*
+Shows system uptime.
+
+*`Meminfo`*
+Shows memory information.
+
+*`Cpuinfo`*
+Shows CPU information.
+
+Attributes
+
+*`users`*
+A dictionary of users, where each user is a dictionary with 'password' and 'permissions' keys.
+
+*`current_user`*
+The current user.
+
+*`current_path`*
+The current working directory.
+
+*`commands`*
+A dictionary of commands, where each command is a method of the TernyxShell class.
+
+Example Usage
+
+```
+shell = TernyxShell()
+shell.commands['cdir']('newdir')
+shell.commands['crdir']('newdir')
+shell.commands['lf']()
+```
+
+
+
+Here are the Ternyx users:
+
+Users
+*1. Overseer*
+- *Username:* Overseer
+- *Password:* password
+- *Permissions:* read-write
+
+*2. Monito*
+- *Username:* Monito
+- *Password:* password
+- *Permissions:* read-only
+
+*3. Normal*
+- *Username:* Normal
+- *Password:* password
+- *Permissions:* read-write
+
+*4. Otheruser*
+- *Username:* Otheruser
+- *Password:* password
+- *Permissions:* read-write
+
+
+
+Here is a manual for Ternyx:
+
+Introduction
+Ternyx is a simulated system environment that allows users to interact with a virtual file system and manage user accounts.
+
+Getting Started
+To start using Ternyx, simply log in with one of the existing user accounts. The default users are:
+
+- Overseer
+- Monito
+- Normal
+- Otheruser
+
+Navigation
+You can navigate through the file system using the `cd` command. To view the current directory, use the `pwd` command.
+
+User Management
+Ternyx allows you to manage user accounts. You can switch between users using the `Sau` command. To promote a user, use the `Promote` command.
+
+File System
+Ternyx has a virtual file system that allows you to create, delete, and manage files and directories. You can use the `cdir` command to create a new directory, and the `rf` command to remove a file.
+
+Security
+Ternyx has a basic security system that allows you to set permissions for users. Users can have either read-only or read-write permissions.
+
+Troubleshooting
+If you encounter any issues while using Ternyx, you can try restarting the system or seeking help from the system administrator.
+
+Conclusion
+Ternyx is a simulated system environment that allows users to interact with a virtual file system and manage user accounts. With its simple and intuitive interface, Ternyx is perfect for users who want to learn about system administration without the risk of damaging a real system.
+
+
+Here is an example manual for Ternyx:
+
+Ternyx System Manual
+*Table of Contents*
+1. #introduction
+2. #logging-in
+3. #navigation
+4. #user-management
+5. #file-system
+6. #security
+7. #troubleshooting
+
+*Introduction*
+Welcome to Ternyx, a simulated system environment. This manual will guide you through the basics of using Ternyx.
+
+*Logging In*
+To log in to Ternyx, simply type your username and password.
+
+Example:
+```
+Emil:system [~]₹
+```
+Enter your username and password to log in.
+
+*Navigation*
+To navigate through the file system, use the `cd` command.
+
+Example:
+```
+Overseer:system [~]?
+cd documents
+```
+This will take you to the `documents` directory.
+
+*User Management*
+To switch between users, use the `Sau` command.
+
+Example:
+```
+Overseer:system [~]?
+Sau Monito
+```
+This will switch you to the `Monito` user account.
+
+*File System*
+To create a new directory, use the `cdir` command.
+
+Example:
+```
+Monito:system [~]!!
+cdir newdirectory
+```
+This will create a new directory called `newdirectory`.
+
+*Security*
+To promote a user, use the `Promote` command.
+
+Example:
+```
+Monito:system [~]!!
+Promote Emil
+```
+This will promote the `Emil` user to read-write permissions.
+
+*Troubleshooting*
+If you encounter any issues while using Ternyx, try restarting the system or seeking help from the system administrator.
