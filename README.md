@@ -2,7 +2,7 @@
 Here are all the commands:
 
 File System
-- `ed`: List files and directories
+- `omit`: open files and directories
 - `cdir [directory]`: Create a new directory
 - `crdir [directory]`: Change directory
 - `rf`/`rf -d`: Remove (delete) a file or directory
